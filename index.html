@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather App</h1>
+        <form action="#">
+            <input type="text" id="city-name" placeholder="Enter Your City Name">
+            <input type="submit" value="Get Weather">
+        </form>
+
+        <div class="current">
+            <div class="date"></div>
+            <div class="time"></div>
+        </div>
+
+        <div class="weather-data">
+            <div class="icon">
+                <!-- <img src="https://openweathermap.org/img/wn/01d.png" alt=""> -->
+            </div>
+            <div class="temp"></div>
+            <div class="desc"></div>
+
+            <div class="sun">
+                <div></div>
+                <div></div>
+            </div>
+            <div class="details">
+                <div class="feels_like"></div>
+                <div class="humidity"></div>
+                <div class="wind_speed"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

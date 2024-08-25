@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+body{
+    background-color: #96bdc6;
+}
+
+.container{
+    background-color: #e7e0e0;
+    max-width: 600px;
+    text-align: center;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
+    margin: 40px auto;
+    border-radius: 10px;
+}
+
+form{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    align-items: center;
+}
+
+form input[type="text"]{
+    padding: 10px;
+    font-size: 20px;
+    width: 70%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+form input[type="submit"]{
+    padding: 10px 20px;
+    border: none;
+    background-color: #dd3e3e;    
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+form input[type="submit"]:hover{
+    background-color: rgb(171, 75, 75);
+}
+
+.current{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    align-items: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.icon img{
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center ;
+}
+
+.temp{
+    font-size: 40px;
+    font-weight: 1000;
+    margin-top: 10px;
+}
+
+.desc{
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.sun{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.sun>div{
+    font-size: 18px;
+    background-color: #cad140;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 10px;
+    min-height: 40px;
+    text-align:center;
+    align-items: center;
+    flex: 1;
+}
+
+.details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.details>div{
+    font-size: 18px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 10px;
+    min-height: 40px;
+    text-align:center;
+    align-items: center;
+    flex: 1;
+}
+
